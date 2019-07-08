@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.0.7.3 (Linux)"/>
+	<meta name="created" content="2019-07-07T14:24:03.263580586"/>
+	<meta name="changed" content="2019-07-07T14:25:13.312846055"/>
+	<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115% }
+		h2.cjk { font-family: "Noto Sans CJK SC Regular" }
+		h2.ctl { font-family: "Lohit Devanagari" }
+		h3.cjk { font-family: "Noto Sans CJK SC Regular" }
+		h3.ctl { font-family: "Lohit Devanagari" }
+		h4.cjk { font-family: "Noto Sans CJK SC Regular" }
+		h4.ctl { font-family: "Lohit Devanagari" }
+		pre.cjk { font-family: "Courier New", monospace }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="en-US" dir="ltr">
+<h2 class="western"><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">Task
+definition</font></font></h2>
+<h3 class="western" style="margin-top: 0.25in; margin-bottom: 0.17in; line-height: 125%">
+<font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">Problem
+Statement</font></font></h3>
+<p style="margin-bottom: 0.17in"><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">Program
+should simulate a game where the goal is to kill the enemies by using
+a tower. Need to kill enemies as fast as possible. At each turn first
+the tower fires one time then each enemy moves to the tower. If an
+enemy reaches the tower you lose.</font></font></font></p>
+<h3 class="western" style="margin-top: 0.25in; margin-bottom: 0.17in; line-height: 125%">
+<font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">Input</font></font></h3>
+<p style="margin-bottom: 0.17in"><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">The
+first line is the tower's firing range. Each next line represents an
+enemy:</font></font></font></p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0.17in"><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">first
+	column - is the enemy name.</font></font></font></p>
+	<li/>
+<p style="margin-bottom: 0.17in"><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">second
+	column - is the initial distance to the tower.</font></font></font></p>
+	<li/>
+<p style="margin-bottom: 0.17in"><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">the
+	last one - is the unit speed.</font></font></font></p>
+</ol>
+<h3 class="western" style="margin-top: 0.25in; margin-bottom: 0.17in; line-height: 125%">
+<font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">Output</font></font></h3>
+<ul>
+	<li/>
+<p style="margin-bottom: 0.17in"><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">At
+	each turn program should inform if the tower killed the enemy unit.</font></font></font></p>
+	<li/>
+<p style="margin-bottom: 0.17in"><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">At
+	the end program should inform if the tower WINS or LOSES and the
+	count of played turns.</font></font></font></p>
+	<li/>
+<p style="margin-bottom: 0.17in"><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">In
+	case of lost the program should calculate the minimal tower's firing
+	distance to win the game against same set of enemies.</font></font></font></p>
+</ul>
+<h4 class="western" style="margin-top: 0.25in; margin-bottom: 0.17in; line-height: 125%"><a name="m_2985177611685792634gmail-m_7702561665131779701gmail-user-content-samples"></a>
+<font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">Sample
+Input</font></font></font></h4>
+<pre class="western" style="border: none; padding: 0in; line-height: 145%; background: #f6f8fa"><font color="#fafbfc"><font face="SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace"><font size="2" style="font-size: 9pt"><span style="background: #b31d28">50m</span></font></font></font>
+<font color="#24292e"><font face="SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace"><font size="2" style="font-size: 9pt">BotA <font color="#fafbfc"><span style="background: #b31d28">100m</span></font> <font color="#fafbfc"><span style="background: #b31d28">10m</span></font></font></font></font>
+<font color="#24292e"><font face="SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace"><font size="2" style="font-size: 9pt">BotB <font color="#fafbfc"><span style="background: #b31d28">50m</span></font> <font color="#fafbfc"><span style="background: #b31d28">20m</span></font></font></font></font>
+<font color="#24292e"><font face="SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace"><font size="2" style="font-size: 9pt">BotC <font color="#fafbfc"><span style="background: #b31d28">30m</span></font> <font color="#fafbfc"><span style="background: #b31d28">20m</span></font></font></font></font></pre><h4 class="western" style="margin-top: 0.25in; margin-bottom: 0.17in; line-height: 125%">
+<font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">Sample
+Output</font></font></font></h4>
+<pre class="western" style="border: none; padding: 0in; line-height: 145%; background: #f6f8fa"><font color="#24292e"><font face="SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace"><font size="2" style="font-size: 9pt">Firing range is <font color="#fafbfc"><span style="background: #b31d28">50m</span></font></font></font></font>
+<font color="#24292e"><font face="SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace"><font size="2" style="font-size: 9pt">Turn <font color="#005cc5">1</font><font color="#d73a49">:</font> Kill BotC at <font color="#fafbfc"><span style="background: #b31d28">30m</span></font></font></font></font>
+<font color="#24292e"><font face="SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace"><font size="2" style="font-size: 9pt">Turn <font color="#005cc5">2</font><font color="#d73a49">:</font> Kill BotB at <font color="#fafbfc"><span style="background: #b31d28">30m</span></font></font></font></font>
+<font color="#24292e"><font face="SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace"><font size="2" style="font-size: 9pt">Turn <font color="#005cc5">6</font><font color="#d73a49">:</font> Kill BotA at <font color="#fafbfc"><span style="background: #b31d28">50m</span></font></font></font></font>
+<font color="#24292e"><font face="SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace"><font size="2" style="font-size: 9pt">Tower <font color="#005cc5">WIN</font> <font color="#d73a49">in</font> <font color="#005cc5">6</font> <font color="#6f42c1">turn</font>(s)</font></font></font></pre><h2 class="western" style="margin-top: 0.25in; margin-bottom: 0.17in; border-top: none; border-bottom: 1px solid #eaecef; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.02in; padding-left: 0in; padding-right: 0in; line-height: 125%">
+<font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol">Tasks
+checklist</font></font></h2>
+<ul>
+	<li/>
+<p style="margin-bottom: 0.17in"><font color="#24292e">&nbsp;<font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">Create
+	programmatic simulator for this game that has to be executed
+	on&nbsp;</font></font><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt"><b>node.js</b></font></font></font></p>
+	<li/>
+<p style="margin-top: 0.03in"><font color="#24292e">&nbsp;<font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">Feel
+	free to write unit tests</font></font></font></p>
+	<li/>
+<p style="margin-top: 0.03in"><font color="#24292e">&nbsp;</font><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">NPM
+	available libs are:&nbsp;</font></font></font><a href="https://lodash.com/" target="_blank"><font color="#0366d6"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt"><span style="background: transparent">lodash</span></font></font></font></a><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">,&nbsp;</font></font></font><a href="https://www.npmjs.com/package/winston" target="_blank"><font color="#0366d6"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt"><span style="background: transparent">winston</span></font></font></font></a><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">,&nbsp;</font></font></font><a href="http://chancejs.com/" target="_blank"><font color="#0366d6"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt"><span style="background: transparent">chance</span></font></font></font></a><font color="#24292e"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt">,&nbsp;,&nbsp;</font></font></font><a href="http://mochajs.org/" target="_blank"><font color="#0366d6"><font face="apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"><font size="3" style="font-size: 12pt"><span style="background: transparent">mocha</span></font></font></font></a></p>
+</ul>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+</body>
+</html>

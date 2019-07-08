@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="grid">
+        <h2 class="header">Tower Defence Simulator</h2>
+        <div class="description">
+            <iframe src="description.html"></iframe>
+        </div>
+        <div class="input">
+            <label>Firing range: <input type="text" id="firing_range" /> (m)</label>
+            <h3>Enemies</h3>
+            <div id="enemies">
+                <div id="enemy_0" class="enemy">
+                    <label>Name: <input type="text" id="e_name_0" class="e_name"></label>
+                    <label>Dist.: <input type="text" id="e_dist_0" class="e_dist"></label>
+                    <label>Speed: <input type="text" id="e_speed_0" class="e_speed"></label>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" onclick="addEnemy();" class="button">Add enemy</button>
+                <button type="button" onclick="removeLastEnemy();" class="button">Remove last enemy</button>
+            </div>
+            <button type="button" onclick="transferData();" class="button">Simulate</button>
+        </div>
+        <div class="output">
+            Output
+        </div>
+    </div>
+</body>
+</html>
