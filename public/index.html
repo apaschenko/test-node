@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Test</title>
@@ -25,12 +25,41 @@
             </div>
             <div class="buttons">
                 <button type="button" onclick="addEnemy();" class="button">Add enemy</button>
-                <button type="button" onclick="removeLastEnemy();" class="button">Remove last enemy</button>
+                <button type="button" onclick="removeLastEnemy();" class="button" id="remove_button">
+                    Remove enemy
+                </button>
             </div>
             <button type="button" onclick="transferData();" class="button">Simulate</button>
+            <div id="error">
+                Error: the tower's firing range and the speed and distance
+                of each enemy must be positive numbers!
+            </div>
         </div>
-        <div class="output">
-            Output
+        <div id="output">
+            <div>
+                <span>Firing range: </span>
+                <span id="o_firing_range" class="o_firing_range"></span>
+            </div>
+            <div id="o_history"></div>
+            <div id="row_pattern">
+                <span>Turn </span>
+                <span class="o_turn_number"></span>
+                <span>: Kill </span>
+                <span class="o_name"></span>
+                <span> at </span>
+                <span class="o_dist"></span>
+            </div>
+            <div>
+                <span>Tower </span>
+                <span id="o_status" class="o_status"></span>
+                <span> in </span>
+                <span id="o_turns" class="o_turns"></span>
+                <span> turn(s) </span>
+            </div>
+            <div id="o_minimum">
+                <span>Min firing range for win is: </span>
+                <span id="o_min_fr" class="o_min_fr"></span>
+            </div>
         </div>
     </div>
 </body>

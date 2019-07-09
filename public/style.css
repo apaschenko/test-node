@@ -51,10 +51,33 @@ iframe {
 }
 
 .button {
+    display: block;
     margin: 15px;
+}
+
+#remove_button {
+    display: none;
+}
+
+#error {
+    background-color: darkorange;
+    display: none;
 }
 
 .output {
     grid-area: output;
 }
 
+#row_pattern, #output, #o_minimum {
+    display: none;
+}
+
+.o_firing_range, .o_dist {
+    background-color: red;
+    color: white;
+}
+
+.o_name, .o_status, .o_turns, .o_min_fr {
+    color: blue;
+    font-weight: bold;
+}
